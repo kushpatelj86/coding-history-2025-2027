@@ -1,0 +1,24 @@
+Build.sh version 23.03.06
+Compiling in "/home/thomas/Desktop/131/HW2/submissions/patelkush" ...
+  ./GroceryItem.cpp
+  ./main.cpp
+  ./GroceryList.cpp
+  ./RegressionTests/GroceryItemTests.cpp
+  ./RegressionTests/GroceryListTests.cpp
+
+clang++ -g0 -O3 -DNDEBUG -pthread -std=c++20 -I./ -DUSING_TOMS_SUGGESTIONS -D__func__=__PRETTY_FUNCTION__ -stdlib=libc++ -Weverything -Wno-comma -Wno-unused-template -Wno-sign-conversion -Wno-exit-time-destructors -Wno-global-constructors -Wno-missing-prototypes -Wno-weak-vtables -Wno-padded -Wno-double-promotion -Wno-c++98-compat-pedantic -Wno-c++11-compat-pedantic -Wno-c++14-compat-pedantic -Wno-c++17-compat-pedantic -Wno-c++20-compat-pedantic -fdiagnostics-show-category=name -Wno-zero-as-null-pointer-constant -Wno-ctad-maybe-unsupported -include "/home/thomas/Desktop/BaselineFiles/Compliance_Workarounds.hpp"
+clang version 15.0.7
+Target: x86_64-suse-linux
+Thread model: posix
+InstalledDir: /usr/bin
+
+Successfully created  "HW2_clang++"
+
+g++ -g0 -O3 -DNDEBUG -pthread -std=c++20 -I./ -DUSING_TOMS_SUGGESTIONS -D__func__=__PRETTY_FUNCTION__ -Wall -Wextra -pedantic -Wdelete-non-virtual-dtor -Wduplicated-branches -Wduplicated-cond -Wextra-semi -Wfloat-equal -Winit-self -Wlogical-op -Wnoexcept -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wstrict-null-sentinel -Wsuggest-override -Wswitch-default -Wswitch-enum -Woverloaded-virtual -Wuseless-cast -include "/home/thomas/Desktop/BaselineFiles/Compliance_Workarounds.hpp"
+g++ (SUSE Linux) 12.2.1 20230124 [revision 193f7e62815b4089dfaed4c2bd34fd4f10209e27]
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+Successfully created  "HW2_g++"

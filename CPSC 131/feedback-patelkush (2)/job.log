@@ -1,0 +1,48 @@
+Setting working directory to:  ./patelkush
+
+Student files found:
+.
+├── GroceryItem.cpp
+├── GroceryItem.hpp
+├── GroceryList.cpp
+├── GroceryList.hpp
+├── main.cpp
+└── output.txt
+
+1 directory, 6 files
+
+Removing extraneous student files:
+
+Extracting student content from:
+extracted './GroceryItem.cpp'
+  ** modification to content outside designated TO-DO regions has been detected and discarded. See ./GroceryItem.cpp.dif
+extracted './GroceryItem.hpp'
+extracted './GroceryList.cpp'
+  ** modification to content outside designated TO-DO regions has been detected and discarded. See ./GroceryList.cpp.dif
+extracted './GroceryList.hpp'
+extracted './main.cpp'
+
+
+Adding baseline files:
+'/home/thomas/Desktop/BaselineFiles/Add_ins/RegressionTests' -> './RegressionTests'
+'/home/thomas/Desktop/BaselineFiles/Add_ins/RegressionTests/CheckResults.hpp' -> './RegressionTests/CheckResults.hpp'
+'/home/thomas/Desktop/BaselineFiles/Add_ins/RegressionTests/GroceryItemTests.cpp' -> './RegressionTests/GroceryItemTests.cpp'
+'/home/thomas/Desktop/BaselineFiles/Add_ins/RegressionTests/GroceryListTests.cpp' -> './RegressionTests/GroceryListTests.cpp'
+'/home/thomas/Desktop/BaselineFiles/Data/input.txt' -> './input.txt'
+
+Attempting to compile and link delivery
+Compile and link completed successfully
+
+Attempting to execute delivery
+Execution completed successfully
+
+Clean up:
+removed './HW2_g++'
+removed './HW2_clang++'
+removed './input.txt'
+removed './RegressionTests/CheckResults.hpp'
+removed './RegressionTests/GroceryItemTests.cpp'
+removed './RegressionTests/GroceryListTests.cpp'
+removed directory './RegressionTests'
+
+Create feedback (new or modified files):

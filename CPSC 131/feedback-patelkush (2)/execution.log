@@ -1,0 +1,186 @@
+
+
+
+GroceryItem Regression Test:  Construction
+  [PASSED] Default price                                     
+  [PASSED] Symmetrical Product Name mutator/query            
+  [PASSED] Symmetrical Brand Name mutator/query              
+  [PASSED] Symmetrical UPC code mutator/query                
+  [PASSED] Symmetrical Price mutator/query                   
+  [PASSED] Grocery item construction with arguments          
+  [PASSED] Copy construction                                 
+  [PASSED] Move construction                                 
+  [PASSED] Copy assignment                                  
+  [PASSED] Move assignment                                  
+
+GroceryItem Regression Test:  Relational comparisons
+  [PASSED] Equality test - is equal                          
+  [PASSED] Equality test - floating point lower limit        
+  [PASSED] Equality test - floating point upper limit        
+  [PASSED] Inequality Product Name test                      
+  [PASSED] Inequality Brand Name test                        
+  [PASSED] Inequality UPC test                               
+  [PASSED] Inequality Price test - lower limit               
+  [PASSED] Inequality Price test - upper limit               
+  [PASSED] Relational Price test                             
+  [PASSED] Relational Brand Name test                        
+  [PASSED] Relational Product Name test                      
+  [PASSED] Relational UPC code test                          
+
+GroceryItem Regression Test:  Input/Output
+  [PASSED] GroceryItem input parsing 1                       
+  [PASSED] GroceryItem input parsing 2                       
+  [PASSED] GroceryItem input parsing 3                       
+  [PASSED] GroceryItem input parsing 4                       
+  [PASSED] GroceryItem input parsing 5                       
+  [PASSED] GroceryItem input parsing 6                       
+  [PASSED] Symmetrical GroceryItem insertion and extraction 1
+  [PASSED] Symmetrical GroceryItem insertion and extraction 2
+  [PASSED] Symmetrical GroceryItem insertion and extraction 3
+  [PASSED] Symmetrical GroceryItem insertion and extraction 4
+  [PASSED] Symmetrical GroceryItem insertion and extraction 5
+
+GroceryItem Regression Test:  Move Semantics
+  [PASSED] Copy VS Move Semantics - UPC Code Copy    
+  [PASSED] Copy VS Move Semantics - UPC Code Move    
+  [PASSED] Copy VS Move Semantics - Brand Name Copy  
+  [PASSED] Copy VS Move Semantics - Brand Name Move  
+  [PASSED] Copy VS Move Semantics - Product Name Copy
+  [PASSED] Copy VS Move Semantics - Product Name Move
+
+
+GroceryItem Regression Test Summary: 39 of 39 (100.00%) tests passed
+
+
+GroceryList Regression Tests:
+  [PASSED] Default construction:  Size
+  [PASSED] Copy construction and equality
+  [PASSED] Relational 1
+  [PASSED] Relational 2
+  [PASSED] Initializer list constructor:  Size
+  [PASSED] Initializer list constructor:  content
+  [PASSED] Initializer list concatenation:  Size
+  [PASSED] Initializer list concatenation:  content
+  [PASSED] Search - gItem_2
+  [PASSED] Search - gItem_3
+  [PASSED] Search - gItem_1
+  [PASSED] Search - gItem_4
+  [PASSED] Search - gItem_5
+  [PASSED] Search - gItem_6
+  [PASSED] Search - not there
+  [PASSED] Silently ignore duplicates - size
+  [PASSED] Silently ignore duplicates - content
+  [PASSED] Remove by grocery item - middle
+  [PASSED] Remove by grocery item - bottom
+  [PASSED] Remove by grocery item - top
+  [PASSED] Remove by grocery item - not there
+  [PASSED] Remove by position - middle
+  [PASSED] Remove by position - bottom
+  [PASSED] Remove by position - top
+  [PASSED] Remove by position - bad index
+  [PASSED] Move to top
+  [PASSED] Fixed size array capacity check
+
+
+GroceryList Regression Test Summary: 27 of 27 (100.00%) tests passed
+
+My Grocery List
+    0:  "",  "",  "eggs",  0
+    1:  "",  "",  "milk",  0
+    2:  "",  "",  "hot dogs",  0
+    3:  "",  "",  "bread",  0
+
+My roommate's Grocery List
+    0:  "",  "Ruffles",  "potato chips",  0
+    1:  "",  "Frito Lays",  "potato chips",  0
+    2:  "",  "Bud Lite",  "beer",  0
+    3:  "",  "",  "eggs",  0
+    4:  "",  "",  "pretzels",  0
+
+Combined Grocery Lists
+    0:  "",  "",  "eggs",  0
+    1:  "",  "",  "milk",  0
+    2:  "",  "",  "hot dogs",  0
+    3:  "",  "Lakes 'Ole",  "butter",  0
+    4:  "",  "",  "bread",  0
+    5:  "",  "",  "bananas",  0
+    6:  "",  "",  "apples",  0
+    7:  "",  "Ruffles",  "potato chips",  0
+    8:  "",  "Frito Lays",  "potato chips",  0
+    9:  "",  "",  "pretzels",  0
+
+
+Expected results:
+    0:  "",  "",  "eggs",  0
+    1:  "",  "",  "milk",  0
+    2:  "",  "",  "hot dogs",  0
+    3:  "",  "Lakes 'Ole",  "butter",  0
+    4:  "",  "",  "bread",  0
+    5:  "",  "",  "bananas",  0
+    6:  "",  "",  "apples",  0
+    7:  "",  "Ruffles",  "potato chips",  0
+    8:  "",  "Frito Lays",  "potato chips",  0
+    9:  "",  "",  "pretzels",  0
+
+
+Actual results:  
+    0:  "",  "",  "eggs",  0
+    1:  "",  "",  "milk",  0
+    2:  "",  "",  "hot dogs",  0
+    3:  "",  "Lakes 'Ole",  "butter",  0
+    4:  "",  "",  "bread",  0
+    5:  "",  "",  "bananas",  0
+    6:  "",  "",  "apples",  0
+    7:  "",  "Ruffles",  "potato chips",  0
+    8:  "",  "Frito Lays",  "potato chips",  0
+    9:  "",  "",  "pretzels",  0
+
+
+Test results:    PASS
+ We so far have 5 protein items for my gym diet
+All the meat proteins I have so far 
+    0:  "",  "",  "Protein Powder",  0
+    1:  "",  "",  "Chicken",  0
+    2:  "",  "",  "Cottage Cheese",  0
+    3:  "",  "",  "Turkey",  0
+    4:  "",  "",  "Fish",  0
+    5:  "",  "",  "Salmon",  0
+    6:  "",  "",  "Bison Steak",  0
+
+All the plant based proteins I have so far 
+    0:  "",  "Great Value",  "Lentils",  0
+    1:  "",  "Quakers",  "Almonds",  0
+    2:  "",  "Quest",  "Protein Cookie",  0
+    3:  "",  "",  "Chcikpeas",  0
+    4:  "",  "",  "Tofu",  0
+
+All the proteins combined
+    0:  "",  "Great Value",  "Lentils",  0
+    1:  "",  "Quakers",  "Almonds",  0
+    2:  "",  "Quest",  "Protein Cookie",  0
+    3:  "",  "",  "Chcikpeas",  0
+    4:  "",  "",  "Tofu",  0
+
+Protein list: 
+    0:  "",  "",  "Protein Bar",  0
+    1:  "",  "",  "Protein Powder",  0
+    2:  "",  "Nature Valley",  "Trail Mix",  0
+    3:  "",  "Quest",  "Protein Chips",  0
+
+Where is Protein Powder? 0
+
+Now lets move everything into a copy list 
+
+Uh oh we have to much space, we must remove one thing 
+
+Copy list: 
+    0:  "",  "",  "Protein Powder",  0
+    1:  "",  "",  "Chicken",  0
+    2:  "",  "",  "Cottage Cheese",  0
+    3:  "",  "",  "Turkey",  0
+    4:  "",  "",  "Fish",  0
+    5:  "",  "",  "Salmon",  0
+    6:  "",  "",  "Bison Steak",  0
+
+Now lets compare the copy list with the original list, Are the two lists the same? 0
+
